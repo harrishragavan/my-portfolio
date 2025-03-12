@@ -30,14 +30,14 @@ const Home = () => {
 
 </p>
 
-      <motion.a 
-        href="\src\pages\Projects" 
+      /*<motion.a 
+        href="\Projects" 
         className="btn btn-primary btn-lg mt-3"
         whileHover={{ scale: 1.1 }}
       >
         View My Work
       </motion.a>
-    </motion.section>
+    </motion.section> */
   );
 };
 
