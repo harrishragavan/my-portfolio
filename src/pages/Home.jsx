@@ -31,7 +31,7 @@ const Home = () => {
 </p>
 
       <motion.a 
-        href="/projects" 
+        href="\src\pages\Projects" 
         className="btn btn-primary btn-lg mt-3"
         whileHover={{ scale: 1.1 }}
       >
