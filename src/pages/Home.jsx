@@ -11,7 +11,7 @@ const Home = () => {
     >
       {/* Profile Image */}
       <motion.img 
-        src="\img.png"  // Replace with your image path
+        src="/img.png"  // Replace with your image path
         alt="Harrish Ragavan J"
         className="rounded-circle shadow-lg mb-4"
         width="200"
