@@ -11,7 +11,7 @@ const Home = () => {
     >
       {/* Profile Image */}
       <motion.img 
-        src="/img.png"  // Replace with your image path
+        src="/img.png"
         alt="Harrish Ragavan J"
         className="rounded-circle shadow-lg mb-4"
         width="200"
@@ -25,18 +25,20 @@ const Home = () => {
         Hi, I'm <span className="text-primary">Harrish Ragavan J</span> 👋
       </h1>
       <p className="lead">Web Developer | React Enthusiast | Cybersecurity Specialist</p>
-      <p className="fw-medium" >I’m a Full-Stack Developer passionate about building scalable web applications and ensuring security in digital systems. 
+      <p className="fw-medium">
+        I’m a Full-Stack Developer passionate about building scalable web applications and ensuring security in digital systems. 
         With expertise in the MERN stack and a strong interest in cybersecurity, I focus on creating efficient, secure, and user-friendly solutions. 
         Always eager to learn and take on new challenges.
-
-</p>
+      </p>
 
       <motion.div whileHover={{ scale: 1.1 }}>
-  <Link to="/projects" className="btn btn-primary btn-lg mt-3">
-    View My Work
-  </Link>
-</motion.div>
+        <Link to="/projects" className="btn btn-primary btn-lg mt-3">
+          View My Work
+        </Link>
+      </motion.div>
+    </motion.section> {/* ✅ Properly closed */}
   );
 };
 
 export default Home;
+
