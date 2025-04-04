@@ -31,12 +31,6 @@ const Home = () => {
         Always eager to learn and take on new challenges.
       </p>
 
-      <motion.div whileHover={{ scale: 1.1 }}>
-        <Link to="/projects" className="btn btn-primary btn-lg mt-3">
-          View My Work
-        </Link>
-      </motion.div>
-    </motion.section> {/* ✅ Properly closed */}
   );
 };
 
